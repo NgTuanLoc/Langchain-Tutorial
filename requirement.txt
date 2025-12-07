@@ -6,8 +6,8 @@ python-dotenv
 pillow
 ipykernel
 langchain
-langchain_community
+langchain-community
 numexpr
 duckduckgo-search
 pydantic
-langchain[openai]
+langchain-openai 
