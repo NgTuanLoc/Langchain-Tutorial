@@ -1,0 +1,13 @@
+openai
+numpy
+pandas
+azure-search-documents
+python-dotenv
+pillow
+ipykernel
+langchain
+langchain_community
+numexpr
+duckduckgo-search
+pydantic
+langchain[openai]
