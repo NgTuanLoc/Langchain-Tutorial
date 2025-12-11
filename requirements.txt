@@ -1,13 +1,33 @@
-openai
-numpy
-pandas
-azure-search-documents
-python-dotenv
-pillow
-ipykernel
-langchain
-langchain-community
-numexpr
-duckduckgo-search
-pydantic
-langchain-openai 
+# Core LangChain packages
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+
+# Azure OpenAI
+openai>=1.0.0
+
+# Vector stores
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+
+# Utilities
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Additional tools
+duckduckgo-search>=4.0.0
+pydantic>=2.0.0
+numexpr>=2.8.0
+
+# Azure services
+azure-search-documents>=11.4.0
+azure-core>=1.29.0
+azure-identity>=1.25.0
+
+# Jupyter notebook support
+ipykernel>=6.25.0
+
+# Image processing
+pillow>=10.0.0 
